@@ -1,0 +1,132 @@
+
+.navbar {
+    width: '100%';
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar .logoContainer {
+    display: flex;
+    align-items: 'center';
+    width: 50%;
+}
+.navbar .logoImage {
+    height: 18px; 
+    padding-left: 5%;
+}
+.navbar .navigationContainer{
+    display: flex;
+    align-items: 'center';
+    width: 50%;
+}
+.navbar .navItemContainer { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar .navitem {
+    font-size: 15px;
+    border: 1px solid #ffffff;
+}
+.navbar .navitem:hover {
+    border-bottom: 1px solid #000000;
+    text-decoration: none;
+}
+.navbar .navitem:visited {
+    color: #000000;
+}
+.navbar .whitenavitem {
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #d5333e;
+}
+.navbar .whitenavitem:hover {
+    border-bottom: 1px solid #ffffff;
+    text-decoration: none;
+}
+.navbar .whitenavitem:visited{
+    color: #ffffff;
+}
+.navbar .specialnavitem {
+    color: #ffffff;
+    background-color: #3a2837;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.navbar .specialnavitem:hover {
+    cursor: pointer;
+    /* padding: 13px;
+    padding-left: 23px;
+    padding-right: 23px; */
+}
+
+.navbar .mobileNavContainer {
+    display: none;
+}
+
+.navbar .navIconContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .navIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #3a2837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar .whiteLineContainer{
+    width: 50%;
+}
+
+.navbar .whiteLine {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 1px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navbar .mobileNavItemContainer{
+    width: 100%;
+    list-style: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar .mobileNavItem{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media ( max-width: 980px ){
+    .navbar .navigationContainer{
+        display: none;
+    }
+
+    .navbar .mobileNavContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
