@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Footer from '../component/footer';
 
 import ListItem from '../component/list-item';
 import NavBar from '../component/navigation-bar';
 import color from '../config/colors';
-import testData from '../config/testData';
+import testData from '../testData';
 
 class Blog extends React.Component {
 
-    testList = testData.testList;
+    testList = testData.blogMostRecentList;
 
     render() {
         return (
@@ -38,6 +39,7 @@ class Blog extends React.Component {
                         </Col>
                     </Row>
                 </Container>
+                <Footer />
             </>
         );
     }

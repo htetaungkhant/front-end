@@ -59,12 +59,17 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: all .3s cubic-bezier(.4,.6,.6,1);
 }
 .navbar .specialnavitem:hover {
     cursor: pointer;
-    /* padding: 13px;
-    padding-left: 23px;
-    padding-right: 23px; */
+    padding: 13px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .navbar .mobileNavContainer {

@@ -8,7 +8,7 @@ class Solutions extends React.Component {
         return (
             <>
                 <NavBar color = {color.white} image='https://www.codigo.co/img/ui/logo-codigo-red.svg'  activeStatus ="solutions"/>
-                <h4>Sorry for Solutions ...</h4>
+                <h4>Solutions Page</h4>
             </>
         );
     }

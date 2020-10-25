@@ -1,0 +1,62 @@
+.work .title-row{
+    margin-top: 8%;
+    justify-content: center;
+}
+
+.work .title {
+    padding: 0;
+    line-height: 1.1em;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.work .title:last-child{
+    color: #d5333e;
+}
+
+.work .category-row{
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.work .category-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work .legend-items-main-container{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.work .legend-items-container{
+    width: 100%;
+}
+
+.work .legend-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.work .legend-items-wrapper{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid black;
+}
+
+.work .project-row{
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+@media ( max-width: 600px ){
+    .work .category-row{
+        display: none;
+    }
+}

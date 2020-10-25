@@ -61,7 +61,7 @@ function Navigationbar({ theme, image, activeStatus }) {
             </div>
             <div className="navigationContainer">
                 <ul className="navItemContainer">
-                    <Link to="/work" className={ theme === 'red' ? "whitenavitem" : "navitem"} style={ activeStatus === 'work' ? styles.fontBold : null }><li>Work</li></Link>
+                    <Link to="/work?tags=all" className={ theme === 'red' ? "whitenavitem" : "navitem"} style={ activeStatus === 'work' ? styles.fontBold : null }><li>Work</li></Link>
                     <Link to="/solutions" className={ theme === 'red' ? "whitenavitem" : "navitem"} style={ activeStatus === 'solutions' ? styles.fontBold : null }><li>Solutions</li></Link>
                     <Link to="/services" className={ theme === 'red' ? "whitenavitem" : "navitem"} style={ activeStatus === 'services' ? styles.fontBold : null }><li>Services</li></Link>
                     <Link to="/about-us" className={ theme === 'red' ? "whitenavitem" : "navitem"} style={ activeStatus === 'aboutus' ? styles.fontBold : null }><li>About us</li></Link>

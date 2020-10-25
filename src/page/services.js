@@ -8,7 +8,7 @@ class Services extends React.Component {
         return (
             <>
                 <NavBar color = {color.white} image='https://www.codigo.co/img/ui/logo-codigo-red.svg'  activeStatus ="services"/>
-                <h4>Sorry for Services ...</h4>
+                <h4>Services Page</h4>
             </>
         );
     }

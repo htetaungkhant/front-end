@@ -3,7 +3,7 @@ import React from 'react';
 const ListItem = ({item}) => {
     return (
         <div style={styles.container}>
-            <span style={styles.prefix}> > </span>
+            <span style={styles.prefix}> &gt; </span>
             <div style={styles.text}>{item}</div>
         </div>
     );

@@ -1,0 +1,49 @@
+.back-key{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.back-key .back-label{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 3%;
+}
+
+.back-key .back-label::before{
+    content: "";
+    width: 12px;
+    height: 7px;
+    margin-right: 15px;
+    background: url(https://www.codigo.co/img/icons/arrow-red.svg);
+    background-size: cover;
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.back-key .back-label:hover{
+    transition: all .3s cubic-bezier(.8,0,.2,1);
+}
+
+.back-key .right-button {
+    color: #ffffff;
+    background-color: #3a2837;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: all .3s cubic-bezier(.4,.6,.6,1);
+}
+.back-key .right-button:hover {
+    cursor: pointer;
+    padding: 13px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+}

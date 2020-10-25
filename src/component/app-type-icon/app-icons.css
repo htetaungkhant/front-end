@@ -1,0 +1,48 @@
+.app-icon{
+    background-color: #ffffff;
+    background-image: url("https://www.codigo.co/img/ui/ico-app.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.web-icon{
+    background-color: #ffffff;
+    background-image: url("https://www.codigo.co/img/ui/ico-web.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cms-icon{
+    background-color: #ffffff;
+    background-image: url("https://www.codigo.co/img/ui/ico-cms.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.uiux-icon{
+    background-color: #ffffff;
+    background-image: url("https://www.codigo.co/img/ui/ico-uiux.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
